@@ -1,0 +1,312 @@
+
+ .link{
+    box-sizing: border-box;
+    text-decoration:none;
+    color: white;
+    padding: red;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.txtnone{
+    text-decoration: none;
+}
+
+.underline{
+    text-decoration: underline ;
+    text-align: center;
+}
+.center {
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.hero {
+    background-image: url('../fertilizer/soil.jpg');
+    /* https://media.smilinggardener.com/files/images/articles/collection/all-about-soil/3-all-about-soil-humus.jpg */
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.buttons {
+    margin-top: 30px;
+    position: relative;
+    top: 100px;
+}
+.button {
+    background-color: #2d3b9d;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+.buttons a:hover{
+    background-color: white;
+    color: #2d3b9d;
+}
+.button.learn-more {
+    background-color: #fff;
+    color: #2d3b9d;
+}
+a.button.learn-more:hover{
+    background-color: #2d3b9d ;
+    color: white;
+
+}
+.ph{
+    width: 50%;
+}
+.Fertilizer{
+    width:50%;
+    margin-top: 2px;
+}
+.manure{
+    width:50%;
+}
+.footer{
+    background-color: black;
+    color: white;
+}
+.contact{
+    width: 5%;
+    height: 5%;
+}
+.flr{
+    position: relative;
+    width: 100%;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+#Upperfooter{
+    background-color: black;
+    color: white;
+
+}
+body {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fafafa;
+}
+
+
+
+@media (max-width:990px){
+
+    .hero {
+    width: 100%;
+    margin: 0;
+    flex-direction: column;
+
+}
+    .center{
+        margin: 0;
+        padding: 0;
+    }
+.buttons {
+    display:none;
+  }
+  .media{
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+/* navigation bar coodes */
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+nav {
+    height: 80px;
+    width: 100%;
+    background: #2d3b9d;
+}
+.logo {
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    padding: 0 100px;
+    line-height: 80px;
+}
+nav ul {
+    float: right;
+    margin-right: 40px;
+}
+nav li {
+    display: inline-block; /* important */
+    margin: 0 8px;
+    line-height: 80px;
+}
+nav a {
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
+}
+a.active, a.nav:hover {
+    border: 1px solid white;
+    transition: .5s;
+}
+nav #icon {
+    color: white;
+    font-size: 30px;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+@media (max-width: 1048px) {
+    .logo {
+        font-size: 32px;
+        padding-left: 60px;
+    }
+    nav ul {
+        margin-right: 20px;
+    }
+    nav a {
+        font-size: 17px;
+    }
+}
+@media (max-width: 990px) {
+    nav #icon {
+        display: block;
+    }
+    nav ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2d3b9d;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav a {
+        font-size: 20px;
+    }
+    a.active, a:hover {
+        border: none;
+        color: #3498db;
+    }
+    nav ul.show {
+        left: 0;
+    }
+}
+@media (max-width: 375px) {
+    .logo {
+        font-size: 28px;
+        padding-left: 30px;
+    }
+    nav ul {
+        margin-right: 10px;
+    }
+    nav a {
+        font-size: 15px;
+    }
+}
+section {
+    background: url() no-repeat;
+    background-size: cover;
+    height: calc(100vh - 80px);
+}
+
+/* footer codes */
+footer {
+    background-color: #2d3b9d;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.footer-column h3 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: white;
+    text-decoration: none;
+}
+.footer-column p {
+    line-height: 1.6;
+}
+.line{
+    width: 5%;
+    height: 5%;
+}
+.content{
+font-size: 50px;
+font-style: italic;
+}
+.soil{
+    background-image: url("");
+}
+a.linke:visited,a.linke:hover{
+    text-decoration: none;
+    color: white;
+
+}
+a.linke:hover{
+    color: black;
+}
+.lin:hover{
+    color:black;
+    text-decoration: none;
+}
+section {
+    background: url() no-repeat;
+    background-size: cover;
+    height: calc(100vh - 80px);
+}

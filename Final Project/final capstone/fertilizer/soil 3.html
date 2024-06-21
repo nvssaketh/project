@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soil and Crop Advisor</title>
+    <link rel="stylesheet" href="soil.css">
+    <link rel="stylesheet" href="extra.css">
+</head>
+
+<body>
+    <nav>
+        <label class="logo">
+            <a class="nav" href="../Home page/code.html">FieldMate</label></a>
+            <ul>
+                <li><a class="nav" href="../Home page/code.html">Home</a></li>
+                <li><a class="active nav" href="../fertilizer/soil 3.html">Fertilizer and Manure Suggestion</a></li>
+                <!-- <li><a href="#">Price Inflation</a></li> -->
+                <!-- <li><a href="">Yield Predictor</a></li> -->
+                <li><a class="nav" href="../weaher/weather1.html">Weather Forecast</a></li>
+                <li><a class="nav" href="../Home page/TEST.html">Advices</a></li>
+            </ul> <label id="icon">☰</label>
+    </nav>
+
+
+    <h1 class="center">Soil and Crop Advisor</h1>
+    <form class="soil-form">
+        <div>
+            <label for="crop">Select Crop:</label>
+            <select id="crop" name="crop">
+                <option value="" selected="selected">-- Select Crop --</option>
+                <option value="wheat">Wheat</option>
+                <option value="corn">Corn</option>
+                <option value="rice">Rice</option>
+                <option value="barley">Barley</option>
+                <option value="soybean">Soybean</option>
+            </select>
+            <span id="cropError" class="error"></span>
+        </div>
+        <div>
+            <label for="soilType">Select Soil Type:</label>
+            <select id="soilType" name="soilType">
+                <option value="" selected="selected">-- Select Soil Type --</option>
+                <option value="black">Black Soil</option>
+                <option value="alluvial">Alluvial Soil</option>
+                <option value="red">Red Soil</option>
+                <option value="laterite">Laterite Soil</option>
+            </select>
+            <span id="soilTypeError" class="error"></span>
+        </div>
+        <div>
+            <label for="ph">Soil pH Value:</label>
+            <input type="number" id="ph" name="ph" step="0.1" min="0" max="14" placeholder="Enter pH value">
+            <span id="phError" class="error"></span>
+        </div>
+        <button type="button" onclick="getSuggestions()">Get Suggestions</button>
+    </form>
+
+    <div id="suggestions"></div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>Designers:-</h3>
+                <ul>
+                    <a class="linke" href="https://www.linkedin.com/in/aryanraj7" target="_blank">
+                        <li>Aryan Raj <img src="linekdinpng.png" alt="linekdin" class="line"></li>
+                    </a>
+                    <a class="linke" href="https://www.linkedin.com/in/anshrajiitp/" target="_blank">
+                        <li>Ansh Raj <img src="linekdinpng.png" alt="linekdin" class="line"></li>
+                    </a>
+                    <a class="linke" href="https://www.linkedin.com/in/aditya-raj-26620122a/" target="_blank">
+                        <li>Aditya Raj<img src="linekdinpng.png" alt="linekdin" class="line"></li>
+                    </a>
+                    <a class="linke" href="">
+                        <li>Shashi  <img src="linekdinpng.png" alt="linekdin" class="line"></li>
+                    </a>
+                    <a class="linke" href="https://www.linkedin.com/in/nvs-saketh-b82421314/" target="_blank">
+                        <li>NVS Saketh <img src="linekdinpng.png" alt="linekdin" class="line"></li>
+                    </a>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a class="lin" href="../Home page/code.html">Home</a></li>
+                    <li><a class="lin" href="../fertilizer/soil 3.html">Fertilizer and Manure Suggestion</a></li>
+                    <!-- <li><a href="Price.html">Price Inflation </a></li> -->
+                    <!-- <li><a href="YeildPredictor.html">Yeild Predictor</a></li> -->
+                    <li><a class="lin" href="../weaher/weather1.html">Weather Forecast</a></li>
+                    <li><a class="lin" href="../Home page/TEST.html">Advices</a></li>
+                    <li><a class="lin" href="Weather.html">Blogs</a></li>
+            </div>
+        </div>
+    </footer>
+</body>
+</div>
+</footer>
+
+
+    <script src="script1.js"></script>
+    <script src="script2.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $('#icon').click(function () {
+                $('ul').toggleClass('show');
+            });
+        });
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,657 @@
+.desktop-3-child {
+  align-self: stretch;
+  position: relative;
+  border-radius: 65px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.smart-agriculture-practices {
+  white-space: pre-wrap;
+}
+.smart-agriculture-practices-te1 {
+  font-weight: 800;
+}
+.smart-agriculture-practices-te {
+  margin: 0;
+  font-size: var(--font-size-45xl);
+}
+.span2 {
+  white-space: pre-wrap;
+}
+.span1 {
+  font-weight: 800;
+}
+.p {
+  margin: 0;
+}
+.blank-line3 {
+  font-weight: 800;
+}
+.blank-line1,
+.blank-line2 {
+  white-space: pre-wrap;
+}
+.blank-line {
+  margin: 0;
+  color: var(--color-black);
+}
+.embracing-the-future {
+  font-weight: 800;
+}
+.embracing-the-future-the-rise1,
+.embracing-the-future-the-rise2 {
+  white-space: pre-wrap;
+}
+.embracing-the-future-the-rise {
+  margin: 0;
+}
+.blank-line5,
+.blank-line6 {
+  white-space: pre-wrap;
+}
+.blank-line4 {
+  margin: 0;
+}
+.introduction3 {
+  font-weight: 800;
+}
+.introduction1,
+.introduction2 {
+  white-space: pre-wrap;
+}
+.introduction {
+  margin: 0;
+}
+.blank-line8,
+.blank-line9 {
+  white-space: pre-wrap;
+}
+.blank-line7 {
+  margin: 0;
+}
+.smart-farming-also-known-as-p1,
+.smart-farming-also-known-as-p2 {
+  white-space: pre-wrap;
+}
+.smart-farming-also-known-as-p {
+  margin: 0;
+}
+.agriculture-is-transforming-t1,
+.agriculture-is-transforming-t2 {
+  white-space: pre-wrap;
+}
+.agriculture-is-transforming-t {
+  margin: 0;
+}
+.industry-by-integrating-advan1,
+.industry-by-integrating-advan2 {
+  white-space: pre-wrap;
+}
+.industry-by-integrating-advan {
+  margin: 0;
+}
+.logies-like-iot-ai-drones-a1,
+.logies-like-iot-ai-drones-a2 {
+  white-space: pre-wrap;
+}
+.logies-like-iot-ai-drones-a {
+  margin: 0;
+}
+.farmers-can-increase-efficienc1,
+.farmers-can-increase-efficienc2 {
+  white-space: pre-wrap;
+}
+.farmers-can-increase-efficienc {
+  margin: 0;
+}
+.waste-and-boost-the-key-compo1,
+.waste-and-boost-the-key-compo2 {
+  white-space: pre-wrap;
+}
+.waste-and-boost-the-key-compo {
+  margin: 0;
+}
+.benefits-os-smart-farming1,
+.benefits-os-smart-farming2 {
+  white-space: pre-wrap;
+}
+.benefits-os-smart-farming {
+  margin: 0;
+}
+.blank-line11,
+.blank-line12 {
+  white-space: pre-wrap;
+}
+.blank-line10 {
+  margin: 0;
+}
+.key-components-of {
+  font-weight: 800;
+}
+.key-components-of-smart-farmin1,
+.key-components-of-smart-farmin2 {
+  white-space: pre-wrap;
+}
+.key-components-of-smart-farmin {
+  margin: 0;
+}
+.blank-line14,
+.blank-line15 {
+  white-space: pre-wrap;
+}
+.blank-line13 {
+  margin: 0;
+}
+.internet-of-thingsiot4 {
+  font-weight: 800;
+}
+.internet-of-thingsiot2,
+.internet-of-thingsiot3 {
+  white-space: pre-wrap;
+}
+.internet-of-thingsiot1 {
+  margin-bottom: 0;
+}
+.internet-of-thingsiot {
+  margin: 0;
+  padding-left: var(--padding-34xl);
+}
+.blank-line17,
+.blank-line18 {
+  white-space: pre-wrap;
+}
+.blank-line16 {
+  margin: 0;
+}
+.blank-line20,
+.blank-line21 {
+  white-space: pre-wrap;
+}
+.blank-line19 {
+  margin: 0;
+}
+.sensors {
+  font-weight: 600;
+  font-family: var(--font-montserrat);
+}
+.sensors-soil-moisture-tempe1,
+.sensors-soil-moisture-tempe2 {
+  white-space: pre-wrap;
+}
+.sensors-soil-moisture-tempe {
+  margin: 0;
+}
+.nutrient-sensor-help-monitor-f1,
+.nutrient-sensor-help-monitor-f2 {
+  white-space: pre-wrap;
+}
+.nutrient-sensor-help-monitor-f {
+  margin: 0;
+}
+.in-real-time1,
+.in-real-time2 {
+  white-space: pre-wrap;
+}
+.in-real-time {
+  margin: 0;
+}
+.blank-line23,
+.blank-line24 {
+  white-space: pre-wrap;
+}
+.blank-line22 {
+  margin: 0;
+}
+.devices {
+  font-weight: 600;
+  font-family: var(--font-montserrat);
+}
+.devices-connected-devices-li1,
+.devices-connected-devices-li2 {
+  white-space: pre-wrap;
+}
+.devices-connected-devices-li {
+  margin: 0;
+}
+.tractors-and-irrigation-system1,
+.tractors-and-irrigation-system2 {
+  white-space: pre-wrap;
+}
+.tractors-and-irrigation-system {
+  margin: 0;
+}
+.automated-farming-processes1,
+.automated-farming-processes2 {
+  white-space: pre-wrap;
+}
+.automated-farming-processes {
+  margin: 0;
+}
+.blank-line26,
+.blank-line27 {
+  white-space: pre-wrap;
+}
+.blank-line25 {
+  margin: 0;
+}
+.artificial-intelligence-ai4 {
+  font-weight: 800;
+}
+.artificial-intelligence-ai2,
+.artificial-intelligence-ai3 {
+  white-space: pre-wrap;
+}
+.artificial-intelligence-ai1 {
+  margin-bottom: 0;
+}
+.artificial-intelligence-ai {
+  margin: 0;
+  padding-left: var(--padding-34xl);
+}
+.blank-line29,
+.blank-line30 {
+  white-space: pre-wrap;
+}
+.blank-line28 {
+  margin: 0;
+}
+.predictive-analysis {
+  font-weight: 600;
+  font-family: var(--font-montserrat);
+}
+.predictive-analysis-ai-algor1,
+.predictive-analysis-ai-algor2 {
+  white-space: pre-wrap;
+}
+.predictive-analysis-ai-algor {
+  margin: 0;
+}
+.weather-pattern-crop-health1,
+.weather-pattern-crop-health2 {
+  white-space: pre-wrap;
+}
+.weather-pattern-crop-health {
+  margin: 0;
+}
+.trends-to-guide-farming-decisi1,
+.trends-to-guide-farming-decisi2 {
+  white-space: pre-wrap;
+}
+.trends-to-guide-farming-decisi {
+  margin: 0;
+}
+.blank-line32,
+.blank-line33 {
+  white-space: pre-wrap;
+}
+.blank-line31 {
+  margin: 0;
+}
+.automation {
+  font-weight: 600;
+  font-family: var(--font-montserrat);
+}
+.automation-robots-and-ai-dri1,
+.automation-robots-and-ai-dri2 {
+  white-space: pre-wrap;
+}
+.automation-robots-and-ai-dri {
+  margin: 0;
+}
+.nery-handle-planting-harvesti1,
+.nery-handle-planting-harvesti2 {
+  white-space: pre-wrap;
+}
+.nery-handle-planting-harvesti {
+  margin: 0;
+}
+.ing-reducing-labor-cost1,
+.ing-reducing-labor-cost2 {
+  white-space: pre-wrap;
+}
+.ing-reducing-labor-cost {
+  margin: 0;
+}
+.blank-line35,
+.blank-line36 {
+  white-space: pre-wrap;
+}
+.blank-line34 {
+  margin: 0;
+}
+.drones-and-satellites4 {
+  font-weight: 800;
+}
+.drones-and-satellites2,
+.drones-and-satellites3 {
+  white-space: pre-wrap;
+}
+.drones-and-satellites1 {
+  margin-bottom: 0;
+}
+.drones-and-satellites {
+  margin: 0;
+  padding-left: var(--padding-34xl);
+}
+.blank-line38,
+.blank-line39 {
+  white-space: pre-wrap;
+}
+.blank-line37 {
+  margin: 0;
+}
+.aerial-imaging {
+  font-weight: 600;
+  font-family: var(--font-montserrat);
+}
+.aerial-imaging-drones-and-sa1,
+.aerial-imaging-drones-and-sa2 {
+  white-space: pre-wrap;
+}
+.aerial-imaging-drones-and-sa {
+  margin: 0;
+}
+.provide-high-resolution-images1,
+.provide-high-resolution-images2 {
+  white-space: pre-wrap;
+}
+.provide-high-resolution-images {
+  margin: 0;
+}
+.helping-identity-issues-like-p1,
+.helping-identity-issues-like-p2 {
+  white-space: pre-wrap;
+}
+.helping-identity-issues-like-p {
+  margin: 0;
+}
+.or-nutrient-deficiencies1,
+.or-nutrient-deficiencies2 {
+  white-space: pre-wrap;
+}
+.or-nutrient-deficiencies {
+  margin: 0;
+}
+.blank-line41,
+.blank-line42 {
+  white-space: pre-wrap;
+}
+.blank-line40 {
+  margin: 0;
+}
+.mapping {
+  font-weight: 600;
+  font-family: var(--font-montserrat);
+}
+.mapping-these-technology-cre1,
+.mapping-these-technology-cre2 {
+  white-space: pre-wrap;
+}
+.mapping-these-technology-cre {
+  margin: 0;
+}
+.maps-for-precision-farming-en1,
+.maps-for-precision-farming-en2 {
+  white-space: pre-wrap;
+}
+.maps-for-precision-farming-en {
+  margin: 0;
+}
+.mal-resource-allocation1,
+.mal-resource-allocation2 {
+  white-space: pre-wrap;
+}
+.mal-resource-allocation {
+  margin: 0;
+}
+.blank-line44,
+.blank-line45 {
+  white-space: pre-wrap;
+}
+.blank-line43 {
+  margin: 0;
+}
+.big-data4 {
+  font-weight: 800;
+}
+.big-data2,
+.big-data3 {
+  white-space: pre-wrap;
+}
+.big-data1 {
+  margin-bottom: 0;
+}
+.big-data {
+  margin: 0;
+  padding-left: var(--padding-34xl);
+}
+.blank-line47,
+.blank-line48 {
+  white-space: pre-wrap;
+}
+.blank-line46 {
+  margin: 0;
+}
+.data-collection {
+  font-weight: 600;
+  font-family: var(--font-montserrat);
+}
+.data-collection-collection-d1,
+.data-collection-collection-d2 {
+  white-space: pre-wrap;
+}
+.data-collection-collection-d {
+  margin: 0;
+}
+.ous-sourceweather-stations-s1,
+.ous-sourceweather-stations-s2 {
+  white-space: pre-wrap;
+}
+.ous-sourceweather-stations-s {
+  margin: 0;
+}
+.kets-data-allow-for-comprehen1,
+.kets-data-allow-for-comprehen2 {
+  white-space: pre-wrap;
+}
+.kets-data-allow-for-comprehen {
+  margin: 0;
+}
+.blank-line50,
+.blank-line51 {
+  white-space: pre-wrap;
+}
+.blank-line49 {
+  margin: 0;
+}
+.decision-making {
+  font-weight: 600;
+  font-family: var(--font-montserrat);
+}
+.decision-making-big-data-ana1,
+.decision-making-big-data-ana2 {
+  white-space: pre-wrap;
+}
+.decision-making-big-data-ana {
+  margin: 0;
+}
+.support-informed-decision-maki1,
+.support-informed-decision-maki2 {
+  white-space: pre-wrap;
+}
+.support-informed-decision-maki {
+  margin: 0;
+}
+.enhancing-productivity-and-sus1,
+.enhancing-productivity-and-sus2 {
+  white-space: pre-wrap;
+}
+.enhancing-productivity-and-sus {
+  margin: 0;
+}
+.blank-line53,
+.blank-line54 {
+  white-space: pre-wrap;
+}
+.blank-line52 {
+  margin: 0;
+}
+.how-can-fieldmate {
+  font-weight: 800;
+}
+.how-can-fieldmate-help-you1 {
+  white-space: pre-wrap;
+}
+.how-can-fieldmate-help-you {
+  margin: 0;
+  font-size: var(--font-size-45xl);
+}
+.blank-line56 {
+  white-space: pre-wrap;
+}
+.blank-line55 {
+  margin: 0;
+}
+.blank-line58 {
+  white-space: pre-wrap;
+}
+.blank-line57 {
+  margin: 0;
+}
+.blank-line60 {
+  white-space: pre-wrap;
+}
+.blank-line59 {
+  margin: 0;
+}
+.blank-line62 {
+  white-space: pre-wrap;
+}
+.blank-line61 {
+  margin: 0;
+}
+.smart-agriculture-practices-container {
+  align-self: stretch;
+  height: 4439px;
+  position: relative;
+  line-height: 114%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.also-got-the,
+.analysis-of-weather,
+.and-empower-farmers,
+.blank-line63,
+.blank-line64,
+.conditions-in-which,
+.decisions,
+.enjoy-our-service,
+.essential-outro-in,
+.from-the-above,
+.get-the-best,
+.informative-articles-in,
+.or-bottom-and,
+.prediciton-tool-and,
+.so-we-fieldmate,
+.these-tools-by,
+.very-crucial-role,
+.yield-predictions-play,
+.you-can-also {
+  margin: 0;
+}
+.from-the-above-container {
+  flex: 1;
+  position: relative;
+  line-height: 114%;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.from-the-above-article-you-hav-wrapper {
+  width: 1025px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  margin-top: -1348px;
+  color: var(--color-black);
+}
+.smart-agriculture-practices-te-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-height: 4439px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-darkgreen);
+  font-family: var(--font-montserrat);
+}
+.desktop-3,
+.desktop-3-inner {
+  display: flex;
+  box-sizing: border-box;
+}
+.desktop-3-inner {
+  width: 1359px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 68px;
+  max-width: 100%;
+}
+.desktop-3 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-92xl);
+  gap: 85px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .desktop-3-inner {
+    padding-left: var(--padding-15xl);
+    padding-right: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .desktop-3 {
+    gap: 42px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .from-the-above-container,
+  .smart-agriculture-practices-container {
+    font-size: var(--font-size-5xl);
+    line-height: 44px;
+  }
+  .from-the-above-container {
+    line-height: 27px;
+  }
+  .desktop-3 {
+    gap: var(--gap-2xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .from-the-above-container,
+  .smart-agriculture-practices-container {
+    font-size: var(--font-size-13xl);
+    line-height: 58px;
+  }
+  .from-the-above-container {
+    line-height: 36px;
+  }
+}
