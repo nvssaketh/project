@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advices</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #2d3b9d;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.nav1 {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+}
+
+.nav1 a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.nav1 a:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem;
+}
+
+.section {
+    margin: 2rem 0;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    
+}
+
+.section img {
+    max-width: 300px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* navigation bar coodes */
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+nav {
+    height: 80px;
+    width: 100%;
+    background: #2d3b9d;
+}
+.logo {
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    padding: 0 100px;
+    line-height: 80px;
+}
+nav ul {
+    float: right;
+    margin-right: 40px;
+}
+nav li {
+    display: inline-block; /* important */
+    margin: 0 8px;
+    line-height: 80px;
+}
+nav a {
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
+}
+a.active, a.nav:hover {
+    border: 1px solid white;
+    transition: .5s;
+}
+nav #icon {
+    color: white;
+    font-size: 30px;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+@media (max-width: 1048px) {
+    .logo {
+        font-size: 32px;
+        padding-left: 60px;
+    }
+    nav ul {
+        margin-right: 20px;
+    }
+    nav a {
+        font-size: 17px;
+    }
+}
+@media (max-width: 990px) {
+    nav #icon {
+        display: block;
+    }
+    nav ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2d3b9d;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav a {
+        font-size: 20px;
+    }
+    a.active, a:hover {
+        border: none;
+        color: #3498db;
+    }
+    nav ul.show {
+        left: 0;
+    }
+}
+@media (max-width: 375px) {
+    .logo {
+        font-size: 28px;
+        padding-left: 30px;
+    }
+    nav ul {
+        margin-right: 10px;
+    }
+    nav a {
+        font-size: 15px;
+    }
+}
+section {
+    background: url() no-repeat;
+    background-size: cover;
+    height: calc(100vh - 80px);
+}
+
+/* footer codes */
+footer {
+    background-color: #2d3b9d;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.footer-column h3 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: white;
+    text-decoration: none;
+}
+.footer-column p {
+    line-height: 1.6;
+}
+.line{
+    width: 5%;
+    height: 5%;
+}
+.content{
+font-size: 50px;
+font-style: italic;
+}
+.soil{
+    background-image: url("");
+}
+a.linke:visited,a.linke:hover{
+    text-decoration: none;
+    color: white;
+
+}
+a.linke:hover{
+    color: black;
+}
+.lin:hover{
+    color:black;
+    text-decoration: none;
+}
+
+</style>
+<body>
+    <nav>
+        <label class="logo">
+            <a class="nav" href="code.html">FieldMate</label></a>
+        <ul>
+            <li><a class="nav" href="../Home page/code.html">Home</a></li>
+                <li><a class="nav" href="../fertilizer/soil 3.html">Fertilizer and Manure Suggestion</a></li>
+                <!-- <li><a href="#">Price Inflation</a></li> -->
+                <!-- <li><a href="">Yield Predictor</a></li> -->
+                <li><a class="nav" href="../weaher/weather1.html">Weather Forecast</a></li>
+                <li><a class="active nav" href="../Home page/TEST.html">Advices</a></li>
+        </ul>
+        <label id="icon">☰</label>
+    </nav>
+
+<header>
+    <h1>Farming Do's and Don'ts</h1>
+    <p style="font-size:large;">Knowledge = More yield </p>
+</header>
+
+<nav class="nav1">
+    <a href="#dos">Do's</a>
+    <a href="#donts">Don'ts</a>
+    <a href="#resources">Resources</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+    <section id="dos" class="section">
+        <img src="https://media.istockphoto.com/id/858322978/photo/dos-and-donts.jpg?s=612x612&w=0&k=20&c=l_DEKdS4d7bcZf4Hq7ygxfZahLMeObB6AKfZ7JvovfM=" alt="Farming Do's">
+        <div>
+            <h2>Do's</h2>
+            <ul>
+                <li>Do rotate your crops regularly to maintain soil health.</li>
+                <li>Do use organic compost to enrich soil nutrients.</li>
+                <li>Do test your soil regularly to understand its needs.</li>
+                <li>Do practice integrated pest management to reduce chemical use.</li>
+                <li>Do ensure proper irrigation techniques to conserve water.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="donts" class="section">
+        <img src="https://media.istockphoto.com/id/512134221/photo/dos-and-donts-on-blackboard.jpg?s=612x612&w=0&k=20&c=bqQ7EGBPdwHNfmRziZnByDVOnUcOlTYfleHC95Ozj00=" alt="Farming Don'ts">
+        <div>
+            <h2>Don'ts</h2>
+            <ul>
+                <li>Don't overuse chemical fertilizers and pesticides.</li>
+                <li>Don't neglect the importance of soil pH balance.</li>
+                <li>Don't plant the same crop repeatedly on the same land.</li>
+                <li>Don't ignore the benefits of cover crops.</li>
+                <li>Don't forget to maintain your farming equipment.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="resources" class="section">
+        <img src="https://media.istockphoto.com/id/1280293781/vector/agricultural-workers-planting-paddy-seedlings-in-the-field-with-a-tractor-in-the-background.jpg?s=612x612&w=0&k=20&c=qpcHwcAj88_Zb6-C_DAkrpQAZ-x0IetzlHWtq8-bBeQ=" alt="Farming Resources">
+        <div>
+            <h2>Resources</h2>
+            <p>Here are some useful resources for farmers:</p>
+            <ul>
+                <li><a href="https://www.agriculture.com" target="_blank">Agriculture.com</a></li>
+                <li><a href="https://www.fao.org" target="_blank">FAO - Food and Agriculture Organization</a></li>
+                <li><a href="https://www.nrcs.usda.gov" target="_blank">USDA Natural Resources Conservation Service</a></li>
+                <li><a href="https://www.agrifarming.in" target="_blank">AgriFarming</a></li>
+                <li><a href="https://www.chatgpt.com" target="_blank">chatgpt</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <img src="https://merakifoundationindia.org/images/about-us-page.png" alt="About Us">
+        <div>
+            <h2>About Us</h2>
+            <p>We are a team of students with some agriculture experts dedicating to provide best farming practice to our farmers to obtain best yield with proper Knowledge.
+            </p>
+            <p>Our team members are : <br>
+            Aryan: aryan_2312res177@iitp.ac.in <br>
+            shashi: shashi_2312res979@iitp.ac.in <br>
+            Ansh: ansh_2312res138@iitp.ac.in <br>
+            saketh: nvs_2312res751@iitp.ac.in <br>
+            aditya: aditya_2312res48@iitp.ac.in
+        
+        </p>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAV9xNcrJi3w-2JYTuhp3dLFasrkvqhBcyAQ&s" alt="Contact Us">
+        <div>
+            <h2>Contact Us</h2>
+            <p>If you have any questions or need further information, feel free to contact us:</p>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+</div>
+
+<section id="testimonials" class="section">
+    <img src="https://neilpatel.com/wp-content/uploads/fly-images/107300/Testimonial-Examples_Featured-Image-1200x675-c.png" alt="Testimonials">
+    <div>
+        <h2>Testimonials</h2>
+        <p>"This website has transformed our farming practices!" - Farmer John</p>
+        <p>"The advice on crop rotation has significantly increased our yield." - Farmer Jane</p>
+    </div>
+</section>
+<footer>
+    <div class="footer-container">
+        <div class="footer-column">
+            <h3>Designers:-</h3>
+            <ul>
+                <a class="linke" href="https://www.linkedin.com/in/aryanraj7" target="_blank">
+                    <li>Aryan Raj <img src="../fertilizer/linekdinpng.png" alt="linekdin" class="line"></li>
+                </a>
+                <a class="linke" href="https://www.linkedin.com/in/anshrajiitp/" target="_blank">
+                    <li>Ansh Raj <img src="../fertilizer/linekdinpng.png" alt="linekdin" class="line"></li>
+                </a>
+                <a class="linke" href="https://www.linkedin.com/in/aditya-raj-26620122a/" target="_blank">
+                    <li>Aditya Raj<img src="../fertilizer/linekdinpng.png" alt="linekdin" class="line"></li>
+                </a>
+                <a class="linke" href="">
+                    <li>Shashi  <img src="../fertilizer/linekdinpng.png" alt="linekdin" class="line"></li>
+                </a>
+                <a class="linke" href="https://www.linkedin.com/in/nvs-saketh-b82421314/" target="_blank">
+                    <li>NVS Saketh <img src="../fertilizer/linekdinpng.png" alt="linekdin" class="line"></li>
+                </a>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Navigation</h3>
+            <ul>
+                    <li><a class="lin" href="../Home page/code.html">Home</a></li>
+                    <li><a class="lin" href="../fertilizer/soil 3.html">Fertilizer and Manure Suggestion</a></li>
+                    <!-- <li><a href="Price.html">Price Inflation </a></li> -->
+                    <!-- <li><a href="YeildPredictor.html">Yeild Predictor</a></li> -->
+                    <li><a class="lin" href="../weaher/weather1.html">Weather Forecast</a></li>
+                    <li><a class="lin" href="../Home page/TEST.html">Advices</a></li>
+                    <li><a class="lin" href="Weather.html">Blogs</a></li>
+        </div>
+    </div>
+</footer>
+
+
+<footer>
+    <p>&copy; 2024 Farming Do's and Don'ts. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

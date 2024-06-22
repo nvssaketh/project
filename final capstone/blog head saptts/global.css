@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-montserrat: Montserrat;
+
+  /* font sizes */
+  --font-size-21xl: 40px;
+  --font-size-45xl: 64px;
+
+  /* Colors */
+  --color-black: #000;
+  --color-darkgreen: #124500;
+
+  /* Paddings */
+  --padding-8xl: 27px;
+  --padding-34xl: 53px;
+}
